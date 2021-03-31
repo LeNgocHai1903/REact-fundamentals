@@ -1,0 +1,22 @@
+.Count {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.Count * {
+    margin-top: 10px;
+    margin-bottom : 10px;
+}
+
+.Count button {
+    height: 40px;
+    width: 100px;
+    color: black;
+    border-radius: .5rem;
+}
+
+.Count select {
+    height:20px;
+    width: 100px;
+}

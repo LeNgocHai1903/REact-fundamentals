@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Count from './components/Count/Count';
+import Parent from './components/Parent/Parent';
+import Time from './components/Hooks/UseEffect/Time';
+import PreviousNumber from './components/Hooks/UseRef/PreviousNumber';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <div className="App">
+    <Count/>
+    <Parent/>
+    <Time/>
+    <PreviousNumber/>
+  </div>;
 }
 
 export default App;
